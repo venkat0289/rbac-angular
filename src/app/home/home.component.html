@@ -1,0 +1,8 @@
+﻿<h1>Home</h1>
+<p>Your role is: <strong>{{currentUser.role}}</strong>.</p>
+<div>
+    Current user from secure api end point:
+    <ul>
+        <li *ngIf="userFromApi"> <b>Firstname</b> : {{userFromApi.firstName}} <b>Lastname: </b> {{userFromApi.lastName}}</li>
+    </ul>
+</div>
